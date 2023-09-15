@@ -1,0 +1,129 @@
+@import url("https://fonts.cdnfonts.com/css/aniron");
+html {
+  height: 100%;
+}
+
+body {
+  height: 100%;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(244, 242, 234);
+}
+
+.line {
+  display: flex;
+  align-items: center;
+  margin: 1em;
+}
+.line p {
+  margin: 1em 2em;
+  font-family: "Aniron", sans-serif;
+}
+
+.ring {
+  width: 30px;
+  height: 30px;
+  color: black;
+  border-style: solid;
+  border-radius: 100%;
+  border-color: black;
+  border-width: 3px;
+  box-shadow: 1.5px 1.5px 1.5px black, inset 1.5px 1.5px 1.5px black;
+}
+
+#precious .ring {
+  width: 50px;
+  height: 50px;
+  color: rgb(255, 106, 0);
+  border-style: solid;
+  border-radius: 100%;
+  border-color: rgb(255, 106, 0);
+  border-width: 5px;
+  box-shadow: 2.5px 2.5px 2.5px #cc5500, inset 2.5px 2.5px 2.5px #cc5500;
+}
+
+#theone .ring {
+  width: 100px;
+  height: 100px;
+  color: yellow;
+  border-style: solid;
+  border-radius: 100%;
+  border-color: yellow;
+  border-width: 10px;
+  box-shadow: 5px 5px 5px #cccc00, inset 5px 5px 5px #cccc00;
+}
+
+#findit .ring:nth-child(1) {
+  width: 0px;
+  height: 0px;
+  color: #242424;
+  border-style: solid;
+  border-radius: 100%;
+  border-color: #242424;
+  border-width: 0px;
+  box-shadow: 0px 0px 0px #0b0b0b, inset 0px 0px 0px #0b0b0b;
+  margin-right: 0px;
+}
+
+#findit .ring:nth-child(2) {
+  width: 36.3627044867px;
+  height: 36.3627044867px;
+  color: #242424;
+  border-style: solid;
+  border-radius: 100%;
+  border-color: #242424;
+  border-width: 3.6362704487px;
+  box-shadow: 1.8181352243px 1.8181352243px 1.8181352243px #0b0b0b, inset 1.8181352243px 1.8181352243px 1.8181352243px #0b0b0b;
+  margin-right: -18.1813522434px;
+}
+
+#findit .ring:nth-child(3) {
+  width: 57.6335230362px;
+  height: 57.6335230362px;
+  color: #242424;
+  border-style: solid;
+  border-radius: 100%;
+  border-color: #242424;
+  border-width: 5.7633523036px;
+  box-shadow: 2.8816761518px 2.8816761518px 2.8816761518px #0b0b0b, inset 2.8816761518px 2.8816761518px 2.8816761518px #0b0b0b;
+  margin-right: -28.8167615181px;
+}
+
+#findit .ring:nth-child(4) {
+  width: 72.7254089734px;
+  height: 72.7254089734px;
+  color: #242424;
+  border-style: solid;
+  border-radius: 100%;
+  border-color: #242424;
+  border-width: 7.2725408973px;
+  box-shadow: 3.6362704487px 3.6362704487px 3.6362704487px #0b0b0b, inset 3.6362704487px 3.6362704487px 3.6362704487px #0b0b0b;
+  margin-right: -36.3627044867px;
+}
+
+#findit .ring:nth-child(5) {
+  width: 84.4315851538px;
+  height: 84.4315851538px;
+  color: #242424;
+  border-style: solid;
+  border-radius: 100%;
+  border-color: #242424;
+  border-width: 8.4431585154px;
+  box-shadow: 4.2215792577px 4.2215792577px 4.2215792577px #0b0b0b, inset 4.2215792577px 4.2215792577px 4.2215792577px #0b0b0b;
+  margin-right: -42.2157925769px;
+}
+
+#findit .ring:nth-child(6) {
+  width: 93.9962275229px;
+  height: 93.9962275229px;
+  color: #242424;
+  border-style: solid;
+  border-radius: 100%;
+  border-color: #242424;
+  border-width: 9.3996227523px;
+  box-shadow: 4.6998113761px 4.6998113761px 4.6998113761px #0b0b0b, inset 4.6998113761px 4.6998113761px 4.6998113761px #0b0b0b;
+  margin-right: -46.9981137615px;
+}/*# sourceMappingURL=style.css.map */

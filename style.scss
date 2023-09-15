@@ -1,0 +1,68 @@
+@use "sass:math";
+@import url('https://fonts.cdnfonts.com/css/aniron');
+
+@mixin ring ($size: 30px, $color: black) {
+    width: $size;
+    height: $size;
+    
+    color: $color;
+    
+    border-style: solid;
+    border-radius: 100%;
+    border-color: $color;
+    border-width: $size/10;
+    
+    box-shadow: $size/20 $size/20 $size/20 darken($color, 10%), inset $size/20 $size/20 $size/20 darken($color, 10%);
+}
+
+//
+
+html {
+    height: 100%;
+}
+
+body {
+    height: 100%;
+    margin: 0;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    background-color: rgb(244, 242, 234);
+}
+
+.line {
+    display: flex;
+    align-items: center;
+    margin: 1em;
+
+    p {
+        margin: 1em 2em;
+        font-family: 'Aniron', sans-serif;
+    }
+
+}
+
+.ring {
+    @include ring();
+}
+
+
+#precious .ring {
+    @include ring(50px, rgb(255, 106, 0));
+}
+
+#theone .ring {
+    @include ring(100px, yellow);
+}
+
+@for $i from 1 to 7 {
+    #findit .ring:nth-child(#{$i}) {
+        $size: math.log($i, 1.1) * 5px;
+        @include ring($size, #242424);
+        margin-right: $size * -0.5;
+    }
+}
+
